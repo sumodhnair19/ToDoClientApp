@@ -1,0 +1,16 @@
+﻿
+  <h2>Find the occurence of string</h2>
+
+  <!-- Todos input -->
+  <form role="form" ng-submit="addTodo()">
+    <div class="row">
+      <div class="input-group">
+        <input type="text" ng-model="enteredValue" placeholder="Enter your value" class="form-control">
+        <span class="input-group-btn">
+          <input type="submit" class="btn btn-primary" value="Find Occurence">
+        </span>
+      </div>
+    </div>
+  </form>
+  
+	<p>The Occurence of the entered value in PI is : {{outputResult}}</p>
