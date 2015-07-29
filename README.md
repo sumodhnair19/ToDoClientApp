@@ -15,7 +15,8 @@ The Project consists of the following functionalities :
 
 Route URL : /finder
 
-For any input the user enters, the output will be printed on the screen which would be the maximum combinations of the provided input in the pi sequence longing to about 100000 digits.
+The count of maximum subsequences of '123' would be printed for the corresponding first 100000 digits of PI. Since the data is having lot of digits to handle, so the processing would take some time to fetch results.
+In case you want to test the logic , please uncomment the $scope.seq value of 10 digits to get quick results.
 
 
 
